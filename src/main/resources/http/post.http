@@ -1,0 +1,15 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+###
+
+
+POST localhost:8080/api/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ2YWxpIiwiaWF0IjoxNzk0MTM3NDk1LCJleHAiOjE3OTQxNDEwOTV9.B85oRN3zigfcsxWvPNc78hlQuyks0S3coFPLO8_85Vs
+
+{
+  "title": "PDP",
+  "content": "Spring lessons"
+}
